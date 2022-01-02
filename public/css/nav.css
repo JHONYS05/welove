@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@800&display=swap');
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+.nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #FF1744 !important;
+    opacity: .9;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.7s;
+}
+
+.nav a {
+    display: block;
+    padding: 20px 30px;
+    font-size: 28px;
+    text-decoration: none;
+    color: #ccc;
+}
+
+.nav a:hover {
+    color: #fff;
+    transition: 0.4s;
+}
+
+.nav .close {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    margin-left: 50px;
+    font-size: 22px;
+}
+
+.wrapper {
+    max-width: 450px;
+    margin: 0px auto;
+}
+
+.wrapper .search-input {
+    position: relative;
+    background: #fff;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0, 12);
+}
+
+.search-input input {
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0 60px 0 20px;
+    font-size: 18px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-input .icon {
+    height: 55px;
+    width: 55px;
+    line-height: 55px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    font-size: 20px;
+    color: #FF1744;
+    cursor: pointer;
+}
+
+.search-input .autocom-box {
+    /*padding: 10px 8px; */
+    max-height: 280px;
+    overflow-y: auto;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.autocom-box li {
+    list-style: none;
+    padding: 8px 12px;
+    width: 100%;
+    cursor: default;
+    border-radius: 3px;
+    display: none;
+}
+
+.autocom-box li:hover {
+    background: #efefef;
+
+}

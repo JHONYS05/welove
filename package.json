@@ -1,0 +1,27 @@
+{
+  "name": "welove",
+  "version": "1.0.0",
+  "description": "live streaming ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Lopez",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^3.2.1",
+    "axios": "^0.23.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "gravatar": "^1.8.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.11",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.13",
+    "socket.io": "^4.3.0",
+    "stripe": "^8.186.1"
+  }
+}

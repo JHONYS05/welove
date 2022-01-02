@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />-->
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" /> -->
+    <link href="/static/assets/logo.png" rel="icon">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap " rel="stylesheet " />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css " rel="stylesheet " />
+
+    <link rel="stylesheet " href="/public/css/nav1.css" />
+    <link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/public/css/style1.css">
+    <title>Welcome in Welove</title>
+</head>
+
+<body>
+   
+    <nav class="navbar bg-danger">
+        <h4>
+            <a class="text-white" href="index.html"><i class="fas fa-heart" ></i>WeLove</a>
+        </h4>
+        
+        <div class="wrapper"> 
+            <div class="search-input">
+            <input id="search-input" type="text" placeholder="Type to search...">
+            <div class="autocom-box">
+             <li>Live streaming </li>
+             <li>Live streaming </li>
+             <li>Live streaming </li>
+             <li>Live streaming </li>
+             <li>Live streaming </li>
+            </div>
+             <div id="search-button" class="icon"><i class="fas fa-search" ></i></div>
+            </div>
+        </div> 
+       
+        <button class="text-white" onclick="buytokens()" style="border: 2px solid #FF1744;
+        background-color: #FF1744; border-radius: 20px;padding: 0.2rem 1rem!important;
+ line-height: 30px;">Buy Tokens 
+
+ <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink" style="background-color: #FF1744!important;">
+    <li >
+        <a class="dropdown-item text-white" href=""><i class="fas fa-home"><br></i>Home</a>
+    </li>
+    <li >
+        <a class="dropdown-item text-white" href=""><i class="fas fa-wallet"><br></i>Wallets</a>
+    </li>
+    <li >
+        <a class="dropdown-item text-white" href=""><i class="fas fa-user"><br></i>Profile</a>
+    </li>
+    <hr>
+    <li >
+        <a class="dropdown-item text-white" href=""><i class="fas fa-sign-out-alt"><br></i>Log Out</a>
+    </li>
+</ul>
+ </button> 
+   
+
+        <button class="text-white" onclick="golive();" style="border: 2px solid #FF1744;
+         background-color: #FF1744; border-radius: 20px;padding: 0.2rem 1rem!important;
+  line-height: 30px;">Go Live</button>
+              
+              <li class="nav-item me-3 me-lg-1">
+                <a class="nav-link " href="#">
+                  <span><i class="fas fa-plus-circle fa-lg" style="color: whitesmoke;"></i></span>
+                </a>
+              </li>
+    
+    <!-- Avatar -->
+
+    <a class="dropdown-toggle d-flex align-items-center hidden-arrow"  href="#" 
+    id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false"> 
+
+    <img src="./assets/diamond (1).png" class="rounded-circle" height="25" alt="" loading="lazy"/>
+</a>
+<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink" style="background-color: #FF1744!important;">
+    <li >
+        <a class="dropdown-item text-white" href=""><i class="fas fa-home"><br></i>Home</a>
+    </li>
+    <li >
+        <a class="dropdown-item text-white" href=""><i class="fas fa-wallet"><br></i>Wallets</a>
+    </li>
+    <li >
+        <a class="dropdown-item text-white" href=""><i class="fas fa-user"><br></i>Profile</a>
+    </li>
+    <hr>
+    <li >
+        <a class="dropdown-item text-white" href=""><i class="fas fa-sign-out-alt"><br></i>Log Out</a>
+    </li>
+</ul>
+
+    </nav>
+    <br>
+    
+</div>
+    </div>
+
+    <video  id="vid"  style="width: 300;height: 350;border: 1px solid red"></video>
+
+    <button onclick="stop();" style="border: 2px solid #FF1744;
+
+  background-color: #FF1744;
+  border-radius: 20px;
+  padding: 0.2rem 1rem!important;
+  line-height: 30px;" class="text-white">Stop</button>
+</body>
+
+<!-- MDB -->
+<script type="text/javascript " src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js "></script>
+<script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
+<script src="/public/js/suggetion.js"></script>
+<script src="/public/js/video.js"></script>
+<script src="/public/js/buytokens.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</html>
